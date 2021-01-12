@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+  <header>
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- icofont & Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://allyoucan.cloud/cdn/icofont/1.0.1/icofont.css" integrity="sha384-jbCTJB16Q17718YM9U22iJkhuGbS0Gd2LjaWb4YJEZToOPmnKDjySVa323U+W7Fv" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+
+
+    <title>ZypWork | Instant Gig Work!</title>
+    <link rel="icon" src="/images/zypicon.png">
+
+  </header>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-md py-0 fixed-top" style="border-bottom: 5px solid rgb(14, 172, 235); background-color: white;">
+      <a class="navbar-brand ml-5" href="#">
+        <img src="/images/zypwork-logo.png" width="50%" alt="">
+      </a>
+      <div class="collapse navbar-collapse justify-content-end mr-5 d-block">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a id="callortext" href="tel:888-383-8461">CALL OR TEXT: <br><span style="text-decoration:underline;">  888-383-8461</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+
+    <section class="px-5 headline-margin" style="background-color: white">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="text-center headline-margin">
+            <h5><mark>Want To Geometrically Grow Your Side Income?</mark></h1>
+            <h1>"New FREE APP Reveals</h1>
+            <h1>A FAST & Proven Way</h1>
+            <h2>To Earn You $$$ In <ins>The Gig Economy...</ins>"</h1>
+          </div>
+          <!-- VSL On Mobile-->
+          <div class="col-lg-6 d-lg-none">
+            <iframe width="100%" height="460rem" src="https://www.youtube.com/embed/Q9tsXOljFQ8?rel=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="text-center px-5">
+            <h4 class="mt-5">GRAB YOUR FREE APP NOW!</h4>
+            <h6 style="margin-bottom: -2rem;" >(Limited Time! No Signup Fee.)<h6>
+            <a target="_blank" rel="noopener noreferrer" href="https://apps.apple.com/us/app/zypwork/id1474861158">
+              <img src="images/Download_on_the_App_Store_Badge.svg" id="apple-badge-size">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.sharehelpstoday.sharehelpstoday">
+              <img src="images/google-play-badge.svg" id="google-badge-size">
+            </a>
+          </div>
+        </div>  
+           <!-- VSL Video On Desktop-->
+        <div class="col-lg-6 d-none d-lg-block">
+          <iframe width="100%" height="460rem" src="https://www.youtube.com/embed/Q9tsXOljFQ8?rel=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>  
+    </section>
+    <!-- App Testimonials Section -->
+    <section style="background-color: #FFFFFF" class="border-top border-bottom">
+      <div class="container-fluid">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-4">
+            <h2 class="section-heading">App Store Reviews</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-7">
+            <div class="owl-carousel testimonial-carousel">
+               <div class="review text-center">
+                <p class="stars">
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                </p>
+                <h3>Love this app</h3>
+                <blockquote>
+                  <p>I downloaded this app to find some work available in my area and it was a great experience. If found what I was looking for within minutes for a really good price. The interface of the app is user friendly and easy to navigate. Highly Recommend.</p>
+                </blockquote>
+
+                <p class="review-user">
+                  <span class="d-block">
+                    <span class="text-black">Julia Moonbeam</span>, &mdash; ZypWork User
+                  </span>
+                </p>
+
+              </div>
+
+              <div class="review text-center">
+                <p class="stars">
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                </p>
+                <h3>Awesome app</h3>
+                <blockquote>
+                  <p>Never seen like this before. I used taskrabbit before, but this the best!! This app makes my life easier :)</p>
+                </blockquote>
+
+                <p class="review-user">
+                  <span class="d-block">
+                    <span class="text-black">Zina Leila</span>, &mdash; ZypWork User
+                  </span>
+                </p>
+
+              </div>
+
+              <div class="review text-center">
+                <p class="stars">
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                  <span class="icofont-star"></span>
+                </p>
+                <h3>Good</h3>
+                <blockquote>
+                  <p>My sales increased because i hired a promoters through Zypwork. It was great offer for professional service. Highly recommend for business owners. You'll be happy like me :)</p>
+                </blockquote>
+
+                <p class="review-user">
+                  <span class="d-block">
+                    <span class="text-black">toyseller</span>, &mdash; ZypWork User
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- Video Testimonials Section --> 
+    <section class="section align-item-end" style="background-color: white">
+      <div class="container-fluid">
+        <div class="row justify-content-center text-center my-5">
+          <div class="col-5">
+            <h2 class="h2 heading">Video Testimonials:</h2>
+          </div>
+        </div>
+        <div class="row align-item-center">
+          <div class="col-lg-6 mt-5">
+            <h3>Tanya:</h3>
+            <iframe width="100%" height="460rem" src="https://www.youtube.com/embed/Q9tsXOljFQ8?rel=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-6 mt-5">
+            <h3>George:</h3>
+            <iframe width="100%" height="460rem" src="https://www.youtube.com/embed/Q9tsXOljFQ8?rel=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+    </section>
+
+     <!-- ======= Details Section ======= -->
+    <section id="details" class="details px-5 mx-4">
+      <div class="container">
+        <div class="row content">
+          <div class="col-md-4 order-2 order-md-1" data-aos="fade-left">
+            <img src="images/zypworkmobile.png" class="img-fluid d-none d-lg-block" alt="">
+          </div>
+          <div class="col-md-8 pt-5 order-1 order-md-2" data-aos="fade-up">
+            <h3 class="py-4" style="text-align: left;">ZypWork: Honest Work, At Your Fingertips</h3>
+            <ul>
+              <li><i class="icofont-check"></i> Schedule Around Your Schedule</li>
+              <li><i class="icofont-check"></i> Forget Useless Leads</li>
+              <li><i class="icofont-check"></i> Easily Coordinated Payments</li>
+              <li><i class="icofont-check"></i> Investor Backed</li>
+              <li><i class="icofont-check"></i> Smart & New</li>
+            </ul>
+            <div class="col-lg-6">
+              <div class="mr-4">
+                <a target="_blank" rel="noopener noreferrer" href="https://apps.apple.com/us/app/zypwork/id1474861158">
+                  <img src="images/Download_on_the_App_Store_Badge.svg" id="apple-badge-size">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.sharehelpstoday.sharehelpstoday">
+                  <img src="images/google-play-badge.svg" id="google-badge-size">
+                </a>
+              </div>  
+          </div>
+        </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Details Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+
+    <div class="px-5 mx-5">
+      <h2 class="py-1 mt-5 pt-5">FAQ:</h2>
+
+      <button class="accordion">How does ZypWork Work?</button>
+      <div class="panel">
+        <p>You can request work and get connected to a client fast. A future time slot can be scheduled as well.</p>
+      </div>
+
+      <button class="accordion">What kind of services does the platform provide?</button>
+      <div class="panel">
+        <p>Cleaning Services, Baby Sitting, House Remodeling, Movers, Errands, Handyman, IT, Translation, Event Organizers ect... We're working on adding more skills (licensed and unlicensed) to our list every day!</p>
+      </div>
+
+      <button class="accordion">How do I become a helper?</button>
+      <div class="panel">
+        <p>Sign-up as a helper, using the "Become a Helper" link in the app. There is no charge, but there is a vetting system, including a background check (free limited time). There may be a medical check, depending on the job you are pursuing.</p>
+      </div>
+
+      <button class="accordion">How much does it cost?</button>
+      <div class="panel">
+       <p>Those hiring help will name the price of what they want to pay for the service. The platform will connect you with a customer if you agree upon the price.</p>
+      </div>    
+
+      <button class="accordion">Is there a fee to use the platform?</button>
+      <div class="panel">
+        <p>We take a 5% booking fee from the customer. Helpers who are hired pay a 20% fee from their earnings. This covers the job lead itself, the processing of your earnings, any disputes, overall customer service and invoicing. The fees are already deducted from the prices shown on the app.</p>
+      </div>
+
+      <button class="accordion">Can I work with a customer outside the plateform?</button>
+      <div class="panel">
+        <p>This is highly discouraged. The app provides project insurance and protocols to ensure satisfaction for both sides of the transaction. </p>
+      </div>
+
+      <button class="accordion">How is satisfaction maintained?</button>
+      <div class="panel">
+        <p>The app monitor's both sides of satisfaction with guidelines. Helpers will be blocked from use if criteria is not met.</p>
+      </div>
+
+      <button class="accordion">How are helpers paid?</button>
+      <div class="panel">
+        <p>ZypWork coordinates and takes care of all payments.</p>
+      </div>
+
+    </div >
+    <!-- End Frequently Asked Questions Section -->
+
+    <script type="text/javascript">
+      //FAQ Accordian
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("clicked");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+     
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js" integrity="sha512-QABeEm/oYtKZVyaO8mQQjePTPplrV8qoT7PrwHDJCBLqZl5UmuPi3APEcWwtTNOiH24psax69XPQtEo5dAkGcA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script> 
+
+  </body>
+</html>
+
+
+
+
+  
+ 
